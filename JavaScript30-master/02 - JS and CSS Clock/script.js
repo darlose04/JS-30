@@ -1,3 +1,5 @@
+const secondHand = document.querySelector('.second-hand');
+
 function setDate() {
   const now = new Date();
   const seconds = now.getSeconds();
